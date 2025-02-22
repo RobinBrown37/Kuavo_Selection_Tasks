@@ -37,6 +37,7 @@
 ```shell
 roslaunch ocs2_legged_robot_ros legged_robot_ddp.launch
 ```
+
 ![四足机器人1](/images/四足机器人.png)
 ![四足机器人](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA.gif)
 
@@ -80,17 +81,21 @@ roslaunch humanoid_dummy legged_robot_sqp.launch
      ```
 
    - **目标检测**：YOLOv11模型会对输入图像进行推理，返回检测到的目标框（`xyxy`格式，即左上角和右下角坐标）。
+
    - **中心点计算**：
-     
+
      ```python
      self.x = (x1 + x2) / 2
      self.y = (y1 + y2) / 2
      ```
+
      这里`(x1, y1)`是检测框的左上角坐标，`(x2, y2)`是右下角坐标。
+
    - **发布到ROS话题**：
-     
+
      - 中心点坐标通过`PointStamped`消息发布到`/yolo/center_coordinates`话题。
      - 检测框坐标通过`Float64MultiArray`消息发布到`/yolo/box_coordinates`话题。
+
      ```python
      center_msg = PointStamped()
      center_msg.header.stamp = rospy.Time.now()
@@ -105,20 +110,32 @@ roslaunch humanoid_dummy legged_robot_sqp.launch
      ```
 
 #### 卡尔曼滤波
+
    - **卡尔曼滤波器的作用**：对YOLO检测到的目标中心点坐标进行平滑处理，减少噪声和抖动，特别是在目标移动或检测不稳定的情况下。
 
    - **实现细节**：
+
      - 在代码中，卡尔曼滤波器被初始化为一个二维滤波器（`KalmanFilter`），用于跟踪目标的`(x, y)`坐标。
+
      - 当检测到目标时，使用卡尔曼滤波器的`update`方法更新状态：
+
        ```python
        (self.xc, self.yc) = self.KF.filter(centers[0])
        ```
+
      - 当未检测到目标时，使用卡尔曼滤波器的`predict`方法预测目标位置：
+
        ```python
        self.x, self.y = self.KF.predict()
        ```
+<<<<<<< HEAD
      - 最终，滤波后的坐标`(self.xc, self.yc)`用于绘制目标中心点并发布到ROS话题。
 
+=======
+
+     - 最终，滤波后的坐标`(self.xc, self.yc)`用于绘制目标中心点并发布到ROS话题。
+
+>>>>>>> b1768d33223e5d7e5342bc94a89d2168d01ea328
 
 ![视觉感知](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5.gif)
 
