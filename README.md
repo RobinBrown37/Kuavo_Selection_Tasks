@@ -20,9 +20,7 @@ roslaunch ocs2_legged_robot_ros legged_robot_ddp.launch
 ![四足机器人1](/images/四足机器人.png)
 ![四足机器人](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA.gif)
 
-<video width="320" height="240" controls>
-    <source src="./video/四足机器人.mp4" type="video/mp4">
-</video>
+
 在视频中输入控制指令`1, 1, 0, 90`，其中前三个参数分别表示X，Y和Z，最后一个参数表示角度（单位是degree，**正表示逆时针**，**负表示顺时针**）。所以视频中机器人移动到了`(1, 1)`位置，并且行进过程中**逆时针**转动了`90`度。
 
 ---
