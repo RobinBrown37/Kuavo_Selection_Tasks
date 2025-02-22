@@ -7,6 +7,7 @@
 **yolo11_train_space**：视觉感知（识别门把手）
 
 **项目结构如下**：
+```
 ├── images
 │   ├── 两足机器人.png
 │   └── 四足机器人.png
@@ -27,6 +28,7 @@
  ├── best6.pt
  ├── data_handler
  └── ultralytics
+```
 
 ## 任务完成情况
 
