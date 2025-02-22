@@ -17,7 +17,7 @@
 ```shell
 roslaunch ocs2_legged_robot_ros legged_robot_ddp.launch
 ```
-
+![四足机器人1](/images/四足机器人.png)
 ![四足机器人](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA.gif)
 
 <video width="320" height="240" controls>
@@ -35,6 +35,7 @@ roslaunch ocs2_legged_robot_ros legged_robot_ddp.launch
 roslaunch humanoid_dummy legged_robot_sqp.launch
 ```
 
+![两足机器人1](/images/两足机器人.png)
 ![两足机器人](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E4%B8%A4%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA.gif)
 
 <video width="320" height="240" controls>
