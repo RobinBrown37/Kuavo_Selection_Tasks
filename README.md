@@ -130,14 +130,7 @@ roslaunch humanoid_dummy legged_robot_sqp.launch
        ```python
        self.x, self.y = self.KF.predict()
        ```
-<<<<<<< HEAD
      - 最终，滤波后的坐标`(self.xc, self.yc)`用于绘制目标中心点并发布到ROS话题。
-
-=======
-
-     - 最终，滤波后的坐标`(self.xc, self.yc)`用于绘制目标中心点并发布到ROS话题。
-
->>>>>>> b1768d33223e5d7e5342bc94a89d2168d01ea328
 
 ![视觉感知](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5.gif)
 
