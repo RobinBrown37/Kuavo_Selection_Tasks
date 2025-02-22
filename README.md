@@ -23,9 +23,8 @@ roslaunch ocs2_legged_robot_ros legged_robot_ddp.launch
 <video width="320" height="240" controls>
     <source src="./video/四足机器人.mp4" type="video/mp4">
 </video>
-在视频中输入控制指令`1, 1, 0, 90`，其中前三个参数分别表示X，Y和Z，最后一个参数表示角度（单位是degree，**正表示逆时针**，**负表示顺时针**）。所以视频中机器人移动到了`(1, 1)`位置，并且行进过程中**逆时针**转动了`90`度。
+在视频中输入控制指令`1, 1, 0, 90`，其中前三个参数分别表示X，Y和Z，最后一个参数表示角度（单位是degree，__正表示逆时针__，__负表示顺时针__）。所以视频中机器人移动到了`(1, 1)`位置，并且行进过程中__逆时针__转动了`90`度。
 
-+++
 
 ### 两足机器人
 
@@ -48,7 +47,6 @@ roslaunch humanoid_dummy legged_robot_sqp.launch
 
 最后将这个ROS节点的启动加入legged_robot_sqp.launch文件，方便**一键启动**。
 
-+++
 
 ### 视觉感知
 
