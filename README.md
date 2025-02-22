@@ -44,17 +44,8 @@ roslaunch ocs2_legged_robot_ros legged_robot_ddp.launch
 ![四足机器人1](/images/四足机器人.png)
 ![四足机器人](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA.gif)
 
-<<<<<<< HEAD
-<video width="320" height="240" controls>
-    <source src="./video/四足机器人.mp4" type="video/mp4">
-</video>
 在视频中输入控制指令`1, 1, 0, 90`，其中前三个参数分别表示X，Y和Z，最后一个参数表示角度（单位是degree，__正表示逆时针__，__负表示顺时针__）。所以视频中机器人移动到了`(1, 1)`位置，并且行进过程中__逆时针__转动了`90`度。
 
-=======
-在视频中输入控制指令`1, 1, 0, 90`，其中前三个参数分别表示X，Y和Z，最后一个参数表示角度（单位是degree，**正表示逆时针**，**负表示顺时针**)。所以视频中机器人移动到了`(1, 1)`位置，并且行进过程中**逆时针**转动了`90`度。
-
----
->>>>>>> bb4b1f80dd978ad40030317e7f0c9e140f46d6fc
 
 ### 两足机器人
 
@@ -73,11 +64,6 @@ roslaunch humanoid_dummy legged_robot_sqp.launch
 除此之外，代码还实现了**自动切换步态**的功能，利用`GaitKeyboardPublisher`类。当机器人处于`stance`（站立）姿势时，如果用户按下`WASD`键，机器人将自动切换为`walk`（行走）步态。当机器人线速度和角速度为零时，机器人会自动从`walk`步态切换回`stance`步态，保持静止状态。该设计使得机器人能够根据用户的输入实时调整动作，同时确保切换步态的平滑性和稳定性。
 
 最后将这个ROS节点的启动加入legged_robot_sqp.launch文件，方便**一键启动**。
-
-<<<<<<< HEAD
-=======
----
->>>>>>> bb4b1f80dd978ad40030317e7f0c9e140f46d6fc
 
 ### 视觉感知
 
