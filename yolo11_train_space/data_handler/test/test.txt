@@ -1,0 +1,9 @@
+/home/robinbrown/yolov8/data_handler/test/images/1.jpg
+/home/robinbrown/yolov8/data_handler/test/images/2.jpg
+/home/robinbrown/yolov8/data_handler/test/images/3.jpg
+/home/robinbrown/yolov8/data_handler/test/images/4.jpg
+/home/robinbrown/yolov8/data_handler/test/images/5.jpg
+/home/robinbrown/yolov8/data_handler/test/images/6.png
+/home/robinbrown/yolov8/data_handler/test/images/7.png
+/home/robinbrown/yolov8/data_handler/test/images/8.png
+/home/robinbrown/yolov8/data_handler/test/images/0.mp4

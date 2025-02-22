@@ -1,0 +1,6 @@
+ocs2/ocs2_sqp/ocs2_sqp
+/home/robinbrown/test_ws/devel/.private/ocs2_sqp/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig.cmake /home/robinbrown/test_ws/devel/share/ocs2_sqp/cmake/ocs2_sqpConfig.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_sqp/share/ocs2_sqp/cmake/ocs2_sqpConfig-version.cmake /home/robinbrown/test_ws/devel/share/ocs2_sqp/cmake/ocs2_sqpConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_sqp/lib/libocs2_sqp.so /home/robinbrown/test_ws/devel/lib/libocs2_sqp.so
+/home/robinbrown/test_ws/devel/.private/ocs2_sqp/lib/pkgconfig/ocs2_sqp.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_sqp.pc

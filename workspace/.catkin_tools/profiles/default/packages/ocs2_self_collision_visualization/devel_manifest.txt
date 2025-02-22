@@ -1,0 +1,6 @@
+ocs2/ocs2_pinocchio/ocs2_self_collision_visualization
+/home/robinbrown/test_ws/devel/.private/ocs2_self_collision_visualization/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/ocs2_self_collision_visualization/share/ocs2_self_collision_visualization/cmake/ocs2_self_collision_visualizationConfig.cmake /home/robinbrown/test_ws/devel/share/ocs2_self_collision_visualization/cmake/ocs2_self_collision_visualizationConfig.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_self_collision_visualization/share/ocs2_self_collision_visualization/cmake/ocs2_self_collision_visualizationConfig-version.cmake /home/robinbrown/test_ws/devel/share/ocs2_self_collision_visualization/cmake/ocs2_self_collision_visualizationConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_self_collision_visualization/lib/libocs2_self_collision_visualization.so /home/robinbrown/test_ws/devel/lib/libocs2_self_collision_visualization.so
+/home/robinbrown/test_ws/devel/.private/ocs2_self_collision_visualization/lib/pkgconfig/ocs2_self_collision_visualization.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_self_collision_visualization.pc

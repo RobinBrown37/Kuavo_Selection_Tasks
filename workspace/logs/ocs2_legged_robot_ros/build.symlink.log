@@ -1,0 +1,10 @@
+Symlinking /home/robinbrown/test_ws/devel/share/ocs2_legged_robot_ros/cmake/ocs2_legged_robot_rosConfig.cmake
+Symlinking /home/robinbrown/test_ws/devel/share/ocs2_legged_robot_ros/cmake/ocs2_legged_robot_rosConfig-version.cmake
+Symlinking /home/robinbrown/test_ws/devel/lib/libocs2_legged_robot_ros.so
+Symlinking /home/robinbrown/test_ws/devel/lib/ocs2_legged_robot_ros/legged_robot_ipm_mpc
+Symlinking /home/robinbrown/test_ws/devel/lib/ocs2_legged_robot_ros/legged_robot_ddp_mpc
+Symlinking /home/robinbrown/test_ws/devel/lib/ocs2_legged_robot_ros/legged_robot_dummy
+Symlinking /home/robinbrown/test_ws/devel/lib/ocs2_legged_robot_ros/legged_robot_sqp_mpc
+Symlinking /home/robinbrown/test_ws/devel/lib/ocs2_legged_robot_ros/legged_robot_gait_command
+Symlinking /home/robinbrown/test_ws/devel/lib/ocs2_legged_robot_ros/legged_robot_target
+Symlinking /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_legged_robot_ros.pc

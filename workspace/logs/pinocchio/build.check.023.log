@@ -1,0 +1,1 @@
+/usr/bin/cmake -S/home/robinbrown/test_ws/src/pinocchio -B/home/robinbrown/test_ws/build/pinocchio --check-build-system CMakeFiles/Makefile.cmake 0

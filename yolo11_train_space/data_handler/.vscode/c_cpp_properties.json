@@ -1,0 +1,51 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/robinbrown/learn_workspace/devel/include/**",
+        "/home/robinbrown/test_ws/devel/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_sqp/hpipm_catkin/include/**",
+        "/home/robinbrown/test_ws/src/hpp-fcl/include/**",
+        "/home/robinbrown/test_ws/src/humanoid-control/humanoid-control/humanoid_common/include/**",
+        "/home/robinbrown/test_ws/src/humanoid-control/humanoid-control/humanoid_controllers/include/**",
+        "/home/robinbrown/test_ws/src/humanoid-control/humanoid-control/humanoid_dummy/include/**",
+        "/home/robinbrown/test_ws/src/humanoid-control/humanoid-control/humanoid_estimation/include/**",
+        "/home/robinbrown/test_ws/src/humanoid-control/humanoid-control/humanoid_interface/include/**",
+        "/home/robinbrown/test_ws/src/humanoid-control/humanoid-control/humanoid_wbc/include/**",
+        "/home/robinbrown/learn_workspace/src/learning_parameter/include/**",
+        "/home/robinbrown/learn_workspace/src/learning_service/include/**",
+        "/home/robinbrown/learn_workspace/src/learning_tf/include/**",
+        "/home/robinbrown/learn_workspace/src/learning_topic/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_pinocchio/ocs2_centroidal_model/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_core/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_ddp/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_ipm/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_robotic_examples/ocs2_legged_robot/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_robotic_examples/ocs2_legged_robot_ros/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_mpc/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_oc/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_pinocchio/ocs2_pinocchio_interface/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_test_tools/ocs2_qp_solver/include/**",
+        "/home/robinbrown/test_ws/src/ocs2_robotic_assets/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_robotic_tools/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_ros_interfaces/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_pinocchio/ocs2_self_collision/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_pinocchio/ocs2_self_collision_visualization/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_sqp/ocs2_sqp/include/**",
+        "/home/robinbrown/test_ws/src/ocs2/ocs2_thirdparty/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

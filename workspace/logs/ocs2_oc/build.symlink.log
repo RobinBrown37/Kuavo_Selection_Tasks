@@ -1,0 +1,5 @@
+Linked: (/home/robinbrown/test_ws/devel/.private/ocs2_oc/share/ocs2_oc/cmake/ocs2_ocConfig.cmake, /home/robinbrown/test_ws/devel/share/ocs2_oc/cmake/ocs2_ocConfig.cmake)
+Linked: (/home/robinbrown/test_ws/devel/.private/ocs2_oc/share/ocs2_oc/cmake/ocs2_ocConfig-version.cmake, /home/robinbrown/test_ws/devel/share/ocs2_oc/cmake/ocs2_ocConfig-version.cmake)
+Linked: (/home/robinbrown/test_ws/devel/.private/ocs2_oc/lib/libocs2_oc.so, /home/robinbrown/test_ws/devel/lib/libocs2_oc.so)
+Linked: (/home/robinbrown/test_ws/devel/.private/ocs2_oc/lib/ocs2_oc/ocs2_oc_lintTarget, /home/robinbrown/test_ws/devel/lib/ocs2_oc/ocs2_oc_lintTarget)
+Linked: (/home/robinbrown/test_ws/devel/.private/ocs2_oc/lib/pkgconfig/ocs2_oc.pc, /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_oc.pc)

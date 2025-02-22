@@ -1,0 +1,6 @@
+ocs2/ocs2_pinocchio/ocs2_pinocchio_interface
+/home/robinbrown/test_ws/devel/.private/ocs2_pinocchio_interface/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig.cmake /home/robinbrown/test_ws/devel/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_pinocchio_interface/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig-version.cmake /home/robinbrown/test_ws/devel/share/ocs2_pinocchio_interface/cmake/ocs2_pinocchio_interfaceConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_pinocchio_interface/lib/libocs2_pinocchio_interface.so /home/robinbrown/test_ws/devel/lib/libocs2_pinocchio_interface.so
+/home/robinbrown/test_ws/devel/.private/ocs2_pinocchio_interface/lib/pkgconfig/ocs2_pinocchio_interface.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_pinocchio_interface.pc

@@ -1,0 +1,6 @@
+ocs2/ocs2_robotic_examples/ocs2_legged_robot
+/home/robinbrown/test_ws/devel/.private/ocs2_legged_robot/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/ocs2_legged_robot/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig.cmake /home/robinbrown/test_ws/devel/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_legged_robot/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig-version.cmake /home/robinbrown/test_ws/devel/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_legged_robot/lib/libocs2_legged_robot.so /home/robinbrown/test_ws/devel/lib/libocs2_legged_robot.so
+/home/robinbrown/test_ws/devel/.private/ocs2_legged_robot/lib/pkgconfig/ocs2_legged_robot.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_legged_robot.pc

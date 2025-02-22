@@ -1,0 +1,15 @@
+/usr/bin/cmake -S/home/robinbrown/test_ws/src/hpp-fcl -B/home/robinbrown/test_ws/build/hpp-fcl --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/robinbrown/test_ws/build/hpp-fcl/CMakeFiles /home/robinbrown/test_ws/build/hpp-fcl/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/robinbrown/test_ws/build/hpp-fcl”
+/usr/bin/make -f src/CMakeFiles/hpp-fcl.dir/build.make src/CMakeFiles/hpp-fcl.dir/depend
+make[2]: 进入目录“/home/robinbrown/test_ws/build/hpp-fcl”
+cd /home/robinbrown/test_ws/build/hpp-fcl && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/robinbrown/test_ws/src/hpp-fcl /home/robinbrown/test_ws/src/hpp-fcl/src /home/robinbrown/test_ws/build/hpp-fcl /home/robinbrown/test_ws/build/hpp-fcl/src /home/robinbrown/test_ws/build/hpp-fcl/src/CMakeFiles/hpp-fcl.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/robinbrown/test_ws/build/hpp-fcl”
+/usr/bin/make -f src/CMakeFiles/hpp-fcl.dir/build.make src/CMakeFiles/hpp-fcl.dir/build
+make[2]: 进入目录“/home/robinbrown/test_ws/build/hpp-fcl”
+make[2]: 对“src/CMakeFiles/hpp-fcl.dir/build”无需做任何事。
+make[2]: 离开目录“/home/robinbrown/test_ws/build/hpp-fcl”
+[100%] Built target hpp-fcl
+make[1]: 离开目录“/home/robinbrown/test_ws/build/hpp-fcl”
+/usr/bin/cmake -E cmake_progress_start /home/robinbrown/test_ws/build/hpp-fcl/CMakeFiles 0

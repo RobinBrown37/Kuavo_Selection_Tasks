@@ -1,0 +1,256 @@
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Matrices.cpp:[m[K In member function ‘[01m[Kvirtual qpOASES::returnValue qpOASES::SparseMatrix::getRowNorm(qpOASES::real_t*, qpOASES::int_t) const[m[K’:
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Matrices.cpp:855:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kfor[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+  855 |     [01;35m[Kfor[m[K (i = jc[j]; i < jc[j+1]; i++);
+      |     [01;35m[K^~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Matrices.cpp:856:7:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kfor[m[K’
+  856 |       [01;36m[Knorm[m[K[ir[i]] += getAbs( val[i] );
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/MessageHandling.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::MessageHandling::throwMessage(qpOASES::returnValue, const char*, const char*, const char*, long unsigned int, qpOASES::VisibilityStatus, const char*)[m[K’:
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/MessageHandling.cpp:517:50:[m[K [01;35m[Kwarning: [m[K‘[01m[K->[m[K’ directive output may be truncated writing 2 bytes into a region of size between 1 and 160 [[01;35m[K-Wformat-truncation=[m[K]
+  517 |    snprintf( myPrintfString,MAX_STRING_LENGTH,"%s[01;35m[K->[m[K", whitespaces );
+      |                                                  [01;35m[K^~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/MessageHandling.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 3 and 162 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::Options::print() const[m[K’:
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:386:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  386 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"printLevel                     =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:392:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  392 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableRamping                  =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:396:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  396 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFarBounds                =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:400:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  400 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFlippingBounds           =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:404:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  404 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableRegularisation           =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:408:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  408 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableFullLITests              =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:412:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  412 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableNZCTests                 =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:422:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  422 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableEqualities               =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:426:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  426 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"enableInertiaCorrection        =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:470:80:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size 126 [[01;35m[K-Wformat-truncation=[m[K]
+  470 |  snprintf( myPrintfString,MAX_STRING_LENGTH,"initialStatusBounds            =  [01;35m[K%s[m[K\n",[32m[Kinfo[m[K );
+      |                                                                                [01;35m[K^~[m[K    [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Options.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/Options.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 36 and 195 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblemB.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblemB::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::real_t, qpOASES::BooleanType)[m[K’:
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblemB.cpp:3837:76:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 119 and 135 [[01;35m[K-Wformat-truncation=[m[K]
+ 3837 |     snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |   [01;35m[K%s[m[K %4.1d   |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)BC_idx,(int)getNFX( ) );
+      |                                                                            [01;35m[K^~[m[K                                       [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp:42[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblemB.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 45 and 234 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblemB.cpp:3827:78:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [[01;35m[K-Wformat-truncation=[m[K]
+ 3827 |      snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d*  |   %1.6e   |    [01;35m[K%s[m[K SOLVED     |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)getNFX( ) );
+      |                                                                              [01;35m[K^~[m[K                                          [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp:42[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblemB.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 50 and 232 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblemB.cpp:3825:78:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [[01;35m[K-Wformat-truncation=[m[K]
+ 3825 |      snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |    [01;35m[K%s[m[K SOLVED     |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)getNFX( ) );
+      |                                                                              [01;35m[K^~[m[K                                          [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp:42[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblemB.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 50 and 232 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblem.cpp:[m[K In member function ‘[01m[KqpOASES::returnValue qpOASES::QProblem::printIteration(qpOASES::int_t, qpOASES::int_t, qpOASES::SubjectToStatus, qpOASES::BooleanType, qpOASES::real_t, qpOASES::BooleanType)[m[K’:
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblem.cpp:6244:76:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 119 and 135 [[01;35m[K-Wformat-truncation=[m[K]
+ 6244 |     snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |   [01;35m[K%s[m[K %4.1d   |  %4.1d   |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)BC_idx,(int)getNFX( ),(int)getNAC( ) );
+      |                                                                            [01;35m[K^~[m[K                                                  [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp:42[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblem.hpp:41[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblem.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 55 and 251 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblem.cpp:6229:78:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [[01;35m[K-Wformat-truncation=[m[K]
+ 6229 |      snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d*  |   %1.6e   |    [01;35m[K%s[m[K SOLVED     |  %4.1d   |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)getNFX( ),(int)getNAC( ) );
+      |                                                                              [01;35m[K^~[m[K                                                     [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp:42[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblem.hpp:41[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblem.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 60 and 249 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblem.cpp:6227:78:[m[K [01;35m[Kwarning: [m[K‘[01m[K%s[m[K’ directive output may be truncated writing up to 159 bytes into a region of size between 118 and 134 [[01;35m[K-Wformat-truncation=[m[K]
+ 6227 |      snprintf( myPrintfString,MAX_STRING_LENGTH,"   %5.1d   |   %1.6e   |    [01;35m[K%s[m[K SOLVED     |  %4.1d   |  %4.1d   \n", (int)iter,tau,[32m[Kinfo[m[K,(int)getNFX( ),(int)getNAC( ) );
+      |                                                                              [01;35m[K^~[m[K                                                     [32m[K~~~~[m[K
+In file included from [01m[K/usr/include/stdio.h:867[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/MessageHandling.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Utils.hpp:39[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Indexlist.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/SubjectTo.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Bounds.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/Flipper.hpp:40[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblemB.hpp:42[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/include/qpOASES/QProblem.hpp:41[m[K,
+                 from [01m[K/home/robinbrown/test_ws/build/qpoases_catkin/download/src/QProblem.cpp:36[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/bits/stdio2.h:67:35:[m[K [01;36m[Knote: [m[K‘[01m[K__builtin___snprintf_chk[m[K’ output between 60 and 249 bytes into a destination of size 160
+   67 |   return [01;36m[K__builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,[m[K
+      |          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   68 | [01;36m[K       __bos (__s), __fmt, __va_arg_pack ())[m[K;
+      |        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

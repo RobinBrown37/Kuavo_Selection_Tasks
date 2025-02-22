@@ -1,0 +1,7 @@
+ocs2/ocs2_core
+/home/robinbrown/test_ws/devel/.private/ocs2_core/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig-version.cmake /home/robinbrown/test_ws/devel/share/ocs2_core/cmake/ocs2_coreConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_core/share/ocs2_core/cmake/ocs2_coreConfig.cmake /home/robinbrown/test_ws/devel/share/ocs2_core/cmake/ocs2_coreConfig.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_core/lib/libocs2_core.so /home/robinbrown/test_ws/devel/lib/libocs2_core.so
+/home/robinbrown/test_ws/devel/.private/ocs2_core/lib/ocs2_core/ocs2_core_lintTarget /home/robinbrown/test_ws/devel/lib/ocs2_core/ocs2_core_lintTarget
+/home/robinbrown/test_ws/devel/.private/ocs2_core/lib/pkgconfig/ocs2_core.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_core.pc

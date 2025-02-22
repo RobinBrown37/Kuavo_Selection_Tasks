@@ -1,0 +1,6 @@
+humanoid-control/humanoid-control/humanoid_wbc
+/home/robinbrown/test_ws/devel/.private/humanoid_wbc/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/humanoid_wbc/share/humanoid_wbc/cmake/humanoid_wbcConfig-version.cmake /home/robinbrown/test_ws/devel/share/humanoid_wbc/cmake/humanoid_wbcConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/humanoid_wbc/share/humanoid_wbc/cmake/humanoid_wbcConfig.cmake /home/robinbrown/test_ws/devel/share/humanoid_wbc/cmake/humanoid_wbcConfig.cmake
+/home/robinbrown/test_ws/devel/.private/humanoid_wbc/lib/libhumanoid_wbc.so /home/robinbrown/test_ws/devel/lib/libhumanoid_wbc.so
+/home/robinbrown/test_ws/devel/.private/humanoid_wbc/lib/pkgconfig/humanoid_wbc.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/humanoid_wbc.pc

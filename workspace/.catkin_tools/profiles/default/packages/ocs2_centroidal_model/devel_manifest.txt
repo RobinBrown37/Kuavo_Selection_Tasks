@@ -1,0 +1,6 @@
+ocs2/ocs2_pinocchio/ocs2_centroidal_model
+/home/robinbrown/test_ws/devel/.private/ocs2_centroidal_model/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig.cmake /home/robinbrown/test_ws/devel/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_centroidal_model/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig-version.cmake /home/robinbrown/test_ws/devel/share/ocs2_centroidal_model/cmake/ocs2_centroidal_modelConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/ocs2_centroidal_model/lib/libocs2_centroidal_model.so /home/robinbrown/test_ws/devel/lib/libocs2_centroidal_model.so
+/home/robinbrown/test_ws/devel/.private/ocs2_centroidal_model/lib/pkgconfig/ocs2_centroidal_model.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_centroidal_model.pc

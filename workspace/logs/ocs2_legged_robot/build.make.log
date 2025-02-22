@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[  0%] Built target _catkin_empty_exported_target
+[35m[1mScanning dependencies of target ocs2_legged_robot[0m
+[  5%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/common/ModelSettings.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/dynamics/LeggedRobotDynamicsAD.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/EndEffectorLinearConstraint.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/FrictionConeConstraint.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/ZeroForceConstraint.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/NormalVelocityConstraintCppAd.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/SplineCpg.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/constraint/ZeroVelocityConstraintCppAd.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/Gait.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/initialization/LeggedRobotInitializer.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/reference_manager/SwitchedModelReferenceManager.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/GaitSchedule.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/CubicSpline.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/foot_planner/SwingTrajectoryPlanner.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/LegLogic.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/gait/ModeSequenceTemplate.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/LeggedRobotInterface.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/ocs2_legged_robot.dir/src/LeggedRobotPreComputation.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/robinbrown/test_ws/devel/.private/ocs2_legged_robot/lib/libocs2_legged_robot.so[0m
+[100%] Built target ocs2_legged_robot

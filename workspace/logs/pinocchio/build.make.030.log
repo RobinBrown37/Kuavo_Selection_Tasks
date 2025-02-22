@@ -1,0 +1,15 @@
+/usr/bin/cmake -S/home/robinbrown/test_ws/src/pinocchio -B/home/robinbrown/test_ws/build/pinocchio --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/robinbrown/test_ws/build/pinocchio/CMakeFiles /home/robinbrown/test_ws/build/pinocchio/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/robinbrown/test_ws/build/pinocchio”
+/usr/bin/make -f src/CMakeFiles/pinocchio.dir/build.make src/CMakeFiles/pinocchio.dir/depend
+make[2]: 进入目录“/home/robinbrown/test_ws/build/pinocchio”
+cd /home/robinbrown/test_ws/build/pinocchio && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/robinbrown/test_ws/src/pinocchio /home/robinbrown/test_ws/src/pinocchio/src /home/robinbrown/test_ws/build/pinocchio /home/robinbrown/test_ws/build/pinocchio/src /home/robinbrown/test_ws/build/pinocchio/src/CMakeFiles/pinocchio.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/robinbrown/test_ws/build/pinocchio”
+/usr/bin/make -f src/CMakeFiles/pinocchio.dir/build.make src/CMakeFiles/pinocchio.dir/build
+make[2]: 进入目录“/home/robinbrown/test_ws/build/pinocchio”
+make[2]: 对“src/CMakeFiles/pinocchio.dir/build”无需做任何事。
+make[2]: 离开目录“/home/robinbrown/test_ws/build/pinocchio”
+[100%] Built target pinocchio
+make[1]: 离开目录“/home/robinbrown/test_ws/build/pinocchio”
+/usr/bin/cmake -E cmake_progress_start /home/robinbrown/test_ws/build/pinocchio/CMakeFiles 0

@@ -1,0 +1,8 @@
+train: /home/robinbrown/yolov8/data_handler/train.txt
+val: /home/robinbrown/yolov8/data_handler/val.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['handler']

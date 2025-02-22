@@ -1,0 +1,5 @@
+humanoid-control/humanoid-control/mujoco_sim
+/home/robinbrown/test_ws/devel/.private/mujoco_sim/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/mujoco_sim/share/mujoco_sim/cmake/mujoco_simConfig.cmake /home/robinbrown/test_ws/devel/share/mujoco_sim/cmake/mujoco_simConfig.cmake
+/home/robinbrown/test_ws/devel/.private/mujoco_sim/share/mujoco_sim/cmake/mujoco_simConfig-version.cmake /home/robinbrown/test_ws/devel/share/mujoco_sim/cmake/mujoco_simConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/mujoco_sim/lib/pkgconfig/mujoco_sim.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/mujoco_sim.pc

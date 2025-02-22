@@ -1,0 +1,4 @@
+Symlinking /home/robinbrown/test_ws/devel/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig.cmake
+Symlinking /home/robinbrown/test_ws/devel/share/ocs2_legged_robot/cmake/ocs2_legged_robotConfig-version.cmake
+Symlinking /home/robinbrown/test_ws/devel/lib/libocs2_legged_robot.so
+Symlinking /home/robinbrown/test_ws/devel/lib/pkgconfig/ocs2_legged_robot.pc

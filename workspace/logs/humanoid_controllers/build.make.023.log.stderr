@@ -1,0 +1,7 @@
+[01m[K/home/robinbrown/test_ws/src/humanoid-control/humanoid-control/humanoid_controllers/src/humanoidTeleop.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kconio.h: 没有那个文件或目录
+    6 | #include [01;31m[K<conio.h>[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/humanoid_controller_node.dir/build.make:63：CMakeFiles/humanoid_controller_node.dir/src/humanoidTeleop.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:423：CMakeFiles/humanoid_controller_node.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

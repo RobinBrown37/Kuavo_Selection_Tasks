@@ -1,0 +1,15 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Package version (ROS package.xml): 1.6.0
+[36m--[0m Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE)
+[33m[1mCMake Warning[0m at /home/robinbrown/test_ws/src/hpp-fcl/cmake/doxygen.cmake:496 (MESSAGE):
+  Failed to find Doxygen, documentation will not be generated.
+[36mCall Stack (most recent call first):[0m
+  cmake/post-project.cmake:58 (_SETUP_PROJECT_DOCUMENTATION)
+  CMakeLists.txt:70 (PROJECT)
+
+
+[36m--[0m FCL uses Octomap
+[36m--[0m Found asset importer library: /usr/lib/x86_64-linux-gnu/libassimp.so
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/robinbrown/test_ws/build/hpp-fcl

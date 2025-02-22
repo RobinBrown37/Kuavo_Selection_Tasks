@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/robinbrown/learn_workspace/devel/lib/python3/dist-packages",
+        "/home/robinbrown/test_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/robinbrown/learn_workspace/devel/lib/python3/dist-packages",
+        "/home/robinbrown/test_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

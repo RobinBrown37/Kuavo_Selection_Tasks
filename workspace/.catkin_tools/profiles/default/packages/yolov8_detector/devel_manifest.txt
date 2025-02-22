@@ -1,0 +1,5 @@
+yolov8_detector
+/home/robinbrown/test_ws/devel/.private/yolov8_detector/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/yolov8_detector/share/yolov8_detector/cmake/yolov8_detectorConfig-version.cmake /home/robinbrown/test_ws/devel/share/yolov8_detector/cmake/yolov8_detectorConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/yolov8_detector/share/yolov8_detector/cmake/yolov8_detectorConfig.cmake /home/robinbrown/test_ws/devel/share/yolov8_detector/cmake/yolov8_detectorConfig.cmake
+/home/robinbrown/test_ws/devel/.private/yolov8_detector/lib/pkgconfig/yolov8_detector.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/yolov8_detector.pc

@@ -1,0 +1,5 @@
+[  1%] [32mBuilding CXX object CMakeFiles/ocs2_core_lintTarget.dir/src/lintTarget.cpp.o[0m
+[  3%] [32m[1mLinking CXX shared library /home/robinbrown/test_ws/devel/.private/ocs2_core/lib/libocs2_core.so[0m
+[100%] Built target ocs2_core
+[100%] [32m[1mLinking CXX executable /home/robinbrown/test_ws/devel/.private/ocs2_core/lib/ocs2_core/ocs2_core_lintTarget[0m
+[100%] Built target ocs2_core_lintTarget

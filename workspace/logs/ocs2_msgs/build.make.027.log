@@ -1,0 +1,23 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_mpc_input
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_controller_data
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_multiplier
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_constraint
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_mpc_target_trajectories
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_lagrangian_metrics
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_mpc_state
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_reset
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_mode_schedule
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_mpc_observation
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_mpc_flattened_controller
+[  0%] Built target _ocs2_msgs_generate_messages_check_deps_mpc_performance_indices
+[ 98%] Built target ocs2_msgs_generate_messages_nodejs
+[ 98%] Built target ocs2_msgs_generate_messages_cpp
+[100%] Built target ocs2_msgs_generate_messages_py
+[ 98%] Built target ocs2_msgs_generate_messages_eus
+[ 98%] Built target ocs2_msgs_generate_messages_lisp
+[100%] Built target ocs2_msgs_generate_messages

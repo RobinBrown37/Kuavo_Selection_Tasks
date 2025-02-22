@@ -1,0 +1,11 @@
+humanoid-control/humanoid-control/humanoid_controllers
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/cmake.lock /home/robinbrown/test_ws/devel/./cmake.lock
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/share/humanoid_controllers/cmake/humanoid_controllersConfig.cmake /home/robinbrown/test_ws/devel/share/humanoid_controllers/cmake/humanoid_controllersConfig.cmake
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/share/humanoid_controllers/cmake/humanoid_controllersConfig-version.cmake /home/robinbrown/test_ws/devel/share/humanoid_controllers/cmake/humanoid_controllersConfig-version.cmake
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/lib/libhumanoid_controllers.so /home/robinbrown/test_ws/devel/lib/libhumanoid_controllers.so
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/lib/humanoid_controllers/humanoid_controller_node /home/robinbrown/test_ws/devel/lib/humanoid_controllers/humanoid_controller_node
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/lib/humanoid_controllers/normal_controller_node /home/robinbrown/test_ws/devel/lib/humanoid_controllers/normal_controller_node
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/lib/humanoid_controllers/humanoid_target_trajectories_publisher /home/robinbrown/test_ws/devel/lib/humanoid_controllers/humanoid_target_trajectories_publisher
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/lib/humanoid_controllers/cheat_controller_node /home/robinbrown/test_ws/devel/lib/humanoid_controllers/cheat_controller_node
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/lib/humanoid_controllers/joy_controller_node /home/robinbrown/test_ws/devel/lib/humanoid_controllers/joy_controller_node
+/home/robinbrown/test_ws/devel/.private/humanoid_controllers/lib/pkgconfig/humanoid_controllers.pc /home/robinbrown/test_ws/devel/lib/pkgconfig/humanoid_controllers.pc
