@@ -18,7 +18,7 @@
 roslaunch ocs2_legged_robot_ros legged_robot_ddp.launch
 ```
 
-![四足机器人](./images/四足机器人.png)
+![四足机器人](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E5%9B%9B%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA.gif)
 
 <video width="320" height="240" controls>
     <source src="./video/四足机器人.mp4" type="video/mp4">
@@ -35,7 +35,7 @@ roslaunch ocs2_legged_robot_ros legged_robot_ddp.launch
 roslaunch humanoid_dummy legged_robot_sqp.launch
 ```
 
-![两足机器人](./images/两足机器人.png)
+![两足机器人](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E4%B8%A4%E8%B6%B3%E6%9C%BA%E5%99%A8%E4%BA%BA.gif)
 
 <video width="320" height="240" controls>
     <source src="./video/两足机器人.mp4" type="video/mp4">
@@ -107,3 +107,6 @@ roslaunch humanoid_dummy legged_robot_sqp.launch
 <video width="320" height="240" controls>
     <source src="./video/视觉感知.mp4" type="video/mp4">
 </video>
+
+![视觉感知](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5.gif)
+
