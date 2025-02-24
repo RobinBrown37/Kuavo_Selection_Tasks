@@ -2,9 +2,9 @@
 
 ## 仓库框架
 
-**video**：演示视频
-**workspace**：两足和四足机器人的工作空间
-**yolo11_train_space**：视觉感知（识别门把手）
+**video,images**：演示视频及图片<br/>
+**workspace**：两足和四足机器人的工作空间<br/>
+**yolo11_train_space**：视觉感知（yolo数据集训练+卡尔曼滤波）
 
 **项目结构如下**：
 
@@ -32,6 +32,13 @@
 ```
 
 ## 任务完成情况
+
+### 任务分工情况
+
+阅读`A Unified MPC Framework for Whole-Body Dynamic Locomotion and Manipulation`,了解MPC&WBC控制框架基本原理：孙田傲、姜伯儒
+四足机器人实例运行，及参数理解：孙田傲、姜伯儒
+双足机器人实例运行+ 发送话题`/cmd_vel`数据控制机器人以指定的速度移动+自动切换步态的功能：酆铄、乔思远
+跑通yolo模型、发布像素坐标话题+门把手数据集训练+卡尔曼滤波：酆铄、乔思远
 
 ### 四足机器人
 
@@ -132,4 +139,3 @@ roslaunch humanoid_dummy legged_robot_sqp.launch
      - 最终，滤波后的坐标`(self.xc, self.yc)`用于绘制目标中心点并发布到ROS话题。
 
 ![视觉感知](https://github.com/RobinBrown37/Kuavo_Selection_Tasks/blob/main/video/%E8%A7%86%E8%A7%89%E6%84%9F%E7%9F%A5.gif)
-
