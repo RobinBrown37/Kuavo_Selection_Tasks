@@ -35,7 +35,7 @@
 
 ### 任务分工情况
 
-酆铄、乔思远：
+**酆铄、乔思远**：<br/>
 双足机器人实例运行<br/>
 发送话题`/cmd_vel`数据控制机器人以指定的速度移动<br/>
 自动切换步态的功能<br/>
@@ -43,7 +43,7 @@
 yolo门把手数据集训练<br/>
 卡尔曼滤波
 
-孙田傲、姜伯儒:
+**孙田傲、姜伯儒**:<br/>
 阅读`A Unified MPC Framework for Whole-Body Dynamic Locomotion and Manipulation`,了解MPC&WBC控制框架基本原理<br/>
 四足机器人实例运行，及参数理解
 
