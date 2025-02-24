@@ -35,10 +35,17 @@
 
 ### 任务分工情况
 
-阅读`A Unified MPC Framework for Whole-Body Dynamic Locomotion and Manipulation`,了解MPC&WBC控制框架基本原理：孙田傲、姜伯儒
-四足机器人实例运行，及参数理解：孙田傲、姜伯儒
-双足机器人实例运行+ 发送话题`/cmd_vel`数据控制机器人以指定的速度移动+自动切换步态的功能：酆铄、乔思远
-跑通yolo模型、发布像素坐标话题+门把手数据集训练+卡尔曼滤波：酆铄、乔思远
+酆铄、乔思远：
+双足机器人实例运行<br/>
+发送话题`/cmd_vel`数据控制机器人以指定的速度移动<br/>
+自动切换步态的功能<br/>
+跑通yolo模型、发布像素坐标话题<br/>
+yolo门把手数据集训练<br/>
+卡尔曼滤波
+
+孙田傲、姜伯儒:
+阅读`A Unified MPC Framework for Whole-Body Dynamic Locomotion and Manipulation`,了解MPC&WBC控制框架基本原理<br/>
+四足机器人实例运行，及参数理解
 
 ### 四足机器人
 
